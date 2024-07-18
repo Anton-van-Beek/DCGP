@@ -22,8 +22,8 @@ l = InParse.Results.l;
 options = optimoptions('fmincon','Display', 'iter-detailed','TolCon',1e-6,'TolFun',1e-12, 'MaxIter', 2000, 'MaxFunEvals', 50000, ...
                 'CheckGradients', false, 'FiniteDifferenceType', 'forward', 'ScaleProblem', 'obj-and-constr', ...
 				'Algorithm', 'sqp');
-oMin =  1;              oMax = 1.335;
-tMin = -2;              tMax = 2;
+oMin =  -2;              oMax =2;
+tMin = -1;              tMax = 1;
 
 nSamples = size(xTrain,1);
 nLlhSamples = 25;
