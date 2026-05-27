@@ -32,7 +32,21 @@ The code includes multiple test problems that can be used as examples of how to 
 
 
 # Citing
-The associated conference and journal papers are currently under review and will be added here once accepted. 
+```bibtex
+@article{vanbeek_jmd_jump_gp,
+  title={Gaussian Processes for Design Using Nondifferentiable Functions With Jump Discontinuities},
+  journal={Journal of Mechanical Design},
+  author={van Beek, Anton and others},
+  year={2025}
+}
+
+@inproceedings{vanbeek_idetc_jump_gp,
+  title={Gaussian Processes for Non-Differentiable Functions With Jump Discontinuities},
+  booktitle={International Design Engineering Technical Conferences (IDETC)},
+  author={van Beek, Anton and others},
+  year={2024}
+}
+```
 
 
 # Questions
